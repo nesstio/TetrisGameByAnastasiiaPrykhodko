@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("/image/background-cartoon-space.jpg");
+    
+    /* height: 100vh; */
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-wrap{
+    /* background-color: #FC0; */
+    display: flex;
+    flex-direction: row;
+    
+}
+header{
+    background-color: #FC0;
+}
+.volume-icon{
+    height: 5vh;
+    margin: 15%;
+    background-color: #240ee97a;
+    margin: 1vh;
+    border-radius: 4vh;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.664);
+    padding: 1vh;
+}
+.change-background-button{
+    padding: 1vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
+    color: rgb(241, 117, 60);
+    font-weight: bold;
+    background-color: #240ee97a;
+    margin: 1vh;
+    border-radius: 4vh;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.664);
+}
+.tetris-screen{
+    background-color: rgba(12, 12, 12, 0.411);
+    background-size: cover;
+    padding: 0.5vh;
+    display: flex;
+    border-radius: 0.5vh;
+}
+.game-name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(61, 22, 204, 0.685);
+    font-size: 7vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-shadow: #FC0 3px 5px 10px;
+}
+.tetris-text{
+    font-size: 3vh;
+    
+}
+.aside{
+    min-width: 25vw;
+}
+.grid{
+    background: rgba(0, 0, 0, 0.342);
+    padding: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    gap: 0.5vh;
+    border-radius: 0.5vh;
+}
+.grid > div{
+    height: min(4vh, 4vw);
+    width: min(4vh, 7vw);
+    background-color: rgb(235, 217, 217, 0.2);
+    border-radius: 0.3vh;
+}
+.grid > .O{
+    background-color: #f5f1099d;
+}
+.grid > .J{
+    background-color: #e77f099c;
+}
+.grid > .I{
+    background-color: #0ee9e99d;
+}
+.grid > .Z{
+    background-color: #3ae90e91;
+}
+.grid > .S{
+    background-color: #e90e0e91;
+}
+.grid > .T{
+    background-color: #ee06c791;
+}
