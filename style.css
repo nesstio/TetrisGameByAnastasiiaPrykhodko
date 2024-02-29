@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    background-image: url("/image/background-cartoon-space.jpg");
+    background-image: url("image/background-cartoon-space.jpg");
     
     /* height: 100vh; */
     
@@ -19,9 +19,9 @@ main{
     flex-direction: row;
     
 }
-header{
+/* header{
     background-color: #FC0;
-}
+} */
 .volume-icon{
     height: 5vh;
     margin: 15%;
